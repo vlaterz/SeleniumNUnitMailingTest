@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LoggingEnabled>true</LoggingEnabled>
+  <MailService>Mail.ru</MailService>
+  <Login>-</Login>
+  <Password>-</Password>
+  <TestsToRun>UnitTests.Tests.ChromeTests.SendMessageTest</TestsToRun>
+  <TestsToRun>UnitTests.Tests.ChromeTests.ReceiveMessageTest</TestsToRun>
+  <TestsToRun>UnitTests.Tests.FirefoxTests.SendMessageTest</TestsToRun>
+  <TestsToRun>UnitTests.Tests.FirefoxTests.ReceiveMessageTest</TestsToRun>
+</Configuration>

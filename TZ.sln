@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1267
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumMailBot", "SeleniumMailBot\SeleniumMailBot.csproj", "{4EF70A0C-36F3-49BF-A47A-653011A34C96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{48046CA4-427B-475F-A902-8DA1C2C315B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EF70A0C-36F3-49BF-A47A-653011A34C96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EF70A0C-36F3-49BF-A47A-653011A34C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EF70A0C-36F3-49BF-A47A-653011A34C96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EF70A0C-36F3-49BF-A47A-653011A34C96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48046CA4-427B-475F-A902-8DA1C2C315B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48046CA4-427B-475F-A902-8DA1C2C315B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48046CA4-427B-475F-A902-8DA1C2C315B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48046CA4-427B-475F-A902-8DA1C2C315B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {289DE0D8-5CFF-4B58-A0BD-12C6D9BCFF21}
+	EndGlobalSection
+EndGlobal

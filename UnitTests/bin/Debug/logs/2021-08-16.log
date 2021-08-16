@@ -1,0 +1,371 @@
+2021-08-16 16:50:41.3380 INFO Navigated to https://mail.ru/
+2021-08-16 16:50:43.1921 INFO Trying to login into mail.ru account..
+2021-08-16 16:50:43.1921 DEBUG Entering login into field..
+2021-08-16 16:50:43.3460 DEBUG Clicking enter password button..
+2021-08-16 16:50:43.4329 DEBUG Looking for password field..
+2021-08-16 16:50:43.9950 DEBUG Entering password into Password field..
+2021-08-16 16:50:44.0579 DEBUG Clicking login into account..
+2021-08-16 16:50:44.2377 INFO Trying to send message 93c3080c-ff7e-41cb-b32b-0427051cb0b1 to vlaterrogue@mail.ru..
+2021-08-16 16:50:44.2377 DEBUG Waiting for 'Write Letter' button to become visible..
+2021-08-16 16:50:46.3202 DEBUG Clicking on 'Write Letter' button..
+2021-08-16 16:50:46.5004 DEBUG Typing vlaterrogue@mail.ru into target mail adress field..
+2021-08-16 16:50:47.2953 DEBUG Typing 93c3080c-ff7e-41cb-b32b-0427051cb0b1 into letter message field..
+2021-08-16 16:50:47.6629 DEBUG Clicking Send button..
+2021-08-16 16:50:47.7728 DEBUG Checking if confirm button is visible..
+2021-08-16 16:50:47.8217 DEBUG Confirm button is not visible, finishing.
+2021-08-16 16:50:47.8217 INFO Message sent successfully.
+2021-08-16 16:50:47.8217 INFO Trying to log out from account..
+2021-08-16 16:50:47.8217 DEBUG Trying to click on menu dropdown..
+2021-08-16 16:50:47.8967 DEBUG Trying to click on Logout button..
+2021-08-16 16:50:49.3378 INFO Logged out successfully.
+2021-08-16 16:50:50.7475 INFO Navigated to https://mail.ru/
+2021-08-16 16:50:52.2899 INFO Trying to login into mail.ru account..
+2021-08-16 16:50:52.2899 DEBUG Entering login into field..
+2021-08-16 16:50:52.4097 DEBUG Clicking enter password button..
+2021-08-16 16:50:52.4976 DEBUG Looking for password field..
+2021-08-16 16:50:52.5336 DEBUG Entering password into Password field..
+2021-08-16 16:50:52.6095 DEBUG Clicking login into account..
+2021-08-16 16:50:52.8363 INFO Trying to get message by index (0)..
+2021-08-16 16:50:52.8363 DEBUG Clicking Inbox button..
+2021-08-16 16:50:54.8716 DEBUG Checking if letters list is visible..
+2021-08-16 16:50:54.8976 DEBUG Getting letter by index (0)
+2021-08-16 16:50:55.6791 INFO Trying to log out from account..
+2021-08-16 16:50:55.6800 DEBUG Trying to click on menu dropdown..
+2021-08-16 16:50:55.8509 DEBUG Trying to click on Logout button..
+2021-08-16 16:50:57.1708 INFO Logged out successfully.
+2021-08-16 16:51:03.3167 INFO Navigated to https://mail.ru/
+2021-08-16 16:51:05.0830 INFO Trying to login into mail.ru account..
+2021-08-16 16:51:05.0830 DEBUG Entering login into field..
+2021-08-16 16:51:05.6424 DEBUG Clicking enter password button..
+2021-08-16 16:51:06.0709 DEBUG Looking for password field..
+2021-08-16 16:51:06.2478 DEBUG Entering password into Password field..
+2021-08-16 16:51:06.4016 DEBUG Clicking login into account..
+2021-08-16 16:51:07.7829 INFO Trying to send message 57ad8038-0eaa-448b-99f7-1e6e7ae13edc to vlaterrogue@mail.ru..
+2021-08-16 16:51:07.7829 DEBUG Waiting for 'Write Letter' button to become visible..
+2021-08-16 16:51:08.7078 DEBUG Clicking on 'Write Letter' button..
+2021-08-16 16:51:09.3581 DEBUG Typing vlaterrogue@mail.ru into target mail adress field..
+2021-08-16 16:51:10.3979 DEBUG Typing 57ad8038-0eaa-448b-99f7-1e6e7ae13edc into letter message field..
+2021-08-16 16:51:10.5607 DEBUG Clicking Send button..
+2021-08-16 16:51:10.9413 DEBUG Checking if confirm button is visible..
+2021-08-16 16:51:11.0892 DEBUG Confirm button is not visible, finishing.
+2021-08-16 16:51:11.0892 INFO Message sent successfully.
+2021-08-16 16:51:11.0892 INFO Trying to log out from account..
+2021-08-16 16:51:11.0892 DEBUG Trying to click on menu dropdown..
+2021-08-16 16:51:11.5138 DEBUG Trying to click on Logout button..
+2021-08-16 16:51:12.9427 INFO Logged out successfully.
+2021-08-16 16:51:19.9758 INFO Navigated to https://mail.ru/
+2021-08-16 16:51:21.9711 INFO Trying to login into mail.ru account..
+2021-08-16 16:51:21.9711 DEBUG Entering login into field..
+2021-08-16 16:51:22.5225 DEBUG Clicking enter password button..
+2021-08-16 16:51:22.8562 DEBUG Looking for password field..
+2021-08-16 16:51:22.8902 DEBUG Entering password into Password field..
+2021-08-16 16:51:22.9431 DEBUG Clicking login into account..
+2021-08-16 16:51:24.3488 INFO Trying to get message by index (0)..
+2021-08-16 16:51:24.3488 DEBUG Clicking Inbox button..
+2021-08-16 16:51:29.6362 ERROR OpenQA.Selenium.WebDriverTimeoutException: Timed out after 5 seconds ---> OpenQA.Selenium.NoSuchElementException: Unable to locate element: //a[@title='Входящие']
+   в OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   в OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   в OpenQA.Selenium.By.FindElement(ISearchContext context)
+   в OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   в SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass7_0.<ElementIsVisible>b__0(IWebDriver driver)
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- Конец трассировки внутреннего стека исключений ---
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   в OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   в SeleniumMailBot.Classes.WebElement.<TryClickWithWait>b__10_0() в C:\Users\left4\source\repos\TZ\SeleniumMailBot\Classes\WebElement.cs:строка 48
+   в SeleniumMailBot.Classes.WebElement.Execute(Action foo) в C:\Users\left4\source\repos\TZ\SeleniumMailBot\Classes\WebElement.cs:строка 108
+2021-08-16 16:54:41.1472 INFO Navigated to https://mail.ru/
+2021-08-16 16:54:42.6730 INFO Trying to login into mail.ru account..
+2021-08-16 16:54:42.6730 DEBUG Entering login into field..
+2021-08-16 16:54:42.8089 DEBUG Clicking enter password button..
+2021-08-16 16:54:42.8968 DEBUG Looking for password field..
+2021-08-16 16:54:42.9647 DEBUG Entering password into Password field..
+2021-08-16 16:54:43.0536 DEBUG Clicking login into account..
+2021-08-16 16:54:43.2974 INFO Trying to send message e6722a9b-e5bd-4eb4-a2d2-deef63e2ac48 to vlaterrogue@mail.ru..
+2021-08-16 16:54:43.2974 DEBUG Waiting for 'Write Letter' button to become visible..
+2021-08-16 16:54:45.4878 DEBUG Clicking on 'Write Letter' button..
+2021-08-16 16:54:45.6999 DEBUG Typing vlaterrogue@mail.ru into target mail adress field..
+2021-08-16 16:54:46.6007 DEBUG Typing e6722a9b-e5bd-4eb4-a2d2-deef63e2ac48 into letter message field..
+2021-08-16 16:54:46.7669 DEBUG Clicking Send button..
+2021-08-16 16:54:46.8997 DEBUG Checking if confirm button is visible..
+2021-08-16 16:54:47.0213 DEBUG Confirm button is not visible, finishing.
+2021-08-16 16:54:47.0213 INFO Message sent successfully.
+2021-08-16 16:54:47.0213 INFO Trying to log out from account..
+2021-08-16 16:54:47.0213 DEBUG Trying to click on menu dropdown..
+2021-08-16 16:54:47.0933 DEBUG Trying to click on Logout button..
+2021-08-16 16:54:48.6377 INFO Logged out successfully.
+2021-08-16 16:54:49.9365 INFO Navigated to https://mail.ru/
+2021-08-16 16:54:51.1772 INFO Trying to login into mail.ru account..
+2021-08-16 16:54:51.1772 DEBUG Entering login into field..
+2021-08-16 16:54:51.6077 DEBUG Clicking enter password button..
+2021-08-16 16:54:51.7316 DEBUG Looking for password field..
+2021-08-16 16:54:52.3340 DEBUG Entering password into Password field..
+2021-08-16 16:54:52.4060 DEBUG Clicking login into account..
+2021-08-16 16:54:52.5268 INFO Trying to get message by index (0)..
+2021-08-16 16:54:52.5268 DEBUG Clicking Inbox button..
+2021-08-16 16:54:54.8762 DEBUG Checking if letters list is visible..
+2021-08-16 16:54:55.0661 DEBUG Getting letter by index (0)
+2021-08-16 16:54:55.7635 INFO Trying to log out from account..
+2021-08-16 16:54:55.7635 DEBUG Trying to click on menu dropdown..
+2021-08-16 16:54:55.8382 DEBUG Trying to click on Logout button..
+2021-08-16 16:54:57.1067 INFO Logged out successfully.
+2021-08-16 16:55:02.5648 INFO Navigated to https://mail.ru/
+2021-08-16 16:55:03.8195 INFO Trying to login into mail.ru account..
+2021-08-16 16:55:03.8195 DEBUG Entering login into field..
+2021-08-16 16:55:04.0103 DEBUG Clicking enter password button..
+2021-08-16 16:55:05.7020 DEBUG Looking for password field..
+2021-08-16 16:55:05.7889 DEBUG Entering password into Password field..
+2021-08-16 16:55:05.9497 DEBUG Clicking login into account..
+2021-08-16 16:55:07.6266 INFO Trying to send message 49996fda-e3c9-4726-85e7-dfea254053d6 to vlaterrogue@mail.ru..
+2021-08-16 16:55:07.6266 DEBUG Waiting for 'Write Letter' button to become visible..
+2021-08-16 16:55:09.1339 DEBUG Clicking on 'Write Letter' button..
+2021-08-16 16:55:09.6523 DEBUG Typing vlaterrogue@mail.ru into target mail adress field..
+2021-08-16 16:55:10.4235 DEBUG Typing 49996fda-e3c9-4726-85e7-dfea254053d6 into letter message field..
+2021-08-16 16:55:10.5694 DEBUG Clicking Send button..
+2021-08-16 16:55:10.8991 DEBUG Checking if confirm button is visible..
+2021-08-16 16:55:10.9220 DEBUG Confirm button is not visible, finishing.
+2021-08-16 16:55:10.9220 INFO Message sent successfully.
+2021-08-16 16:55:10.9220 INFO Trying to log out from account..
+2021-08-16 16:55:10.9220 DEBUG Trying to click on menu dropdown..
+2021-08-16 16:55:11.3905 DEBUG Trying to click on Logout button..
+2021-08-16 16:55:12.6170 INFO Logged out successfully.
+2021-08-16 16:55:20.2899 INFO Navigated to https://mail.ru/
+2021-08-16 16:55:21.9646 INFO Trying to login into mail.ru account..
+2021-08-16 16:55:21.9646 DEBUG Entering login into field..
+2021-08-16 16:55:22.5980 DEBUG Clicking enter password button..
+2021-08-16 16:55:23.3648 DEBUG Looking for password field..
+2021-08-16 16:55:23.4567 DEBUG Entering password into Password field..
+2021-08-16 16:55:23.6175 DEBUG Clicking login into account..
+2021-08-16 16:55:24.7366 INFO Trying to get message by index (0)..
+2021-08-16 16:55:24.7366 DEBUG Clicking Inbox button..
+2021-08-16 16:55:26.8326 DEBUG Checking if letters list is visible..
+2021-08-16 16:55:26.8326 DEBUG Getting letter by index (0)
+2021-08-16 16:55:27.3705 INFO Trying to log out from account..
+2021-08-16 16:55:27.3705 DEBUG Trying to click on menu dropdown..
+2021-08-16 16:55:27.7871 DEBUG Trying to click on Logout button..
+2021-08-16 16:55:28.9525 INFO Logged out successfully.
+2021-08-16 16:55:55.9356 INFO Navigated to https://mail.ru/
+2021-08-16 16:55:57.6328 INFO Trying to login into mail.ru account..
+2021-08-16 16:55:57.6348 DEBUG Entering login into field..
+2021-08-16 16:55:59.4329 INFO Navigated to https://mail.ru/
+2021-08-16 16:56:00.8954 INFO Trying to login into mail.ru account..
+2021-08-16 16:56:00.8954 DEBUG Entering login into field..
+2021-08-16 16:56:06.3477 INFO Navigated to https://mail.ru/
+2021-08-16 16:56:07.6313 INFO Trying to login into mail.ru account..
+2021-08-16 16:56:07.6313 DEBUG Entering login into field..
+2021-08-16 16:56:14.1119 INFO Navigated to https://mail.ru/
+2021-08-16 16:56:15.4905 INFO Trying to login into mail.ru account..
+2021-08-16 16:56:15.4905 DEBUG Entering login into field..
+2021-08-16 16:56:31.6206 INFO Navigated to https://mail.ru/
+2021-08-16 16:56:33.5899 INFO Trying to login into mail.ru account..
+2021-08-16 16:56:33.5899 DEBUG Entering login into field..
+2021-08-16 16:56:33.7538 DEBUG Clicking enter password button..
+2021-08-16 16:56:33.8677 DEBUG Looking for password field..
+2021-08-16 16:56:33.9196 DEBUG Entering password into Password field..
+2021-08-16 16:56:34.0585 DEBUG Clicking login into account..
+2021-08-16 16:56:34.4271 INFO Trying to send message 74bcb818-d232-43d3-a2e2-e54ddb3118d8 to vlaterrogue@mail.ru..
+2021-08-16 16:56:34.4271 DEBUG Waiting for 'Write Letter' button to become visible..
+2021-08-16 16:56:36.5199 DEBUG Clicking on 'Write Letter' button..
+2021-08-16 16:56:36.6613 DEBUG Typing vlaterrogue@mail.ru into target mail adress field..
+2021-08-16 16:56:37.6010 DEBUG Typing 74bcb818-d232-43d3-a2e2-e54ddb3118d8 into letter message field..
+2021-08-16 16:56:37.7717 DEBUG Clicking Send button..
+2021-08-16 16:56:37.9650 DEBUG Checking if confirm button is visible..
+2021-08-16 16:56:38.0140 DEBUG Confirm button is not visible, finishing.
+2021-08-16 16:56:38.0140 INFO Message sent successfully.
+2021-08-16 16:56:38.0140 INFO Trying to log out from account..
+2021-08-16 16:56:38.0140 DEBUG Trying to click on menu dropdown..
+2021-08-16 16:56:38.0839 DEBUG Trying to click on Logout button..
+2021-08-16 16:56:39.5933 INFO Logged out successfully.
+2021-08-16 16:56:41.1255 INFO Navigated to https://mail.ru/
+2021-08-16 16:56:42.6229 INFO Trying to login into mail.ru account..
+2021-08-16 16:56:42.6229 DEBUG Entering login into field..
+2021-08-16 16:56:42.7564 DEBUG Clicking enter password button..
+2021-08-16 16:56:42.8523 DEBUG Looking for password field..
+2021-08-16 16:56:43.4659 DEBUG Entering password into Password field..
+2021-08-16 16:56:43.5278 DEBUG Clicking login into account..
+2021-08-16 16:56:43.6050 INFO Trying to get message by index (0)..
+2021-08-16 16:56:43.6050 DEBUG Clicking Inbox button..
+2021-08-16 16:56:45.9408 DEBUG Checking if letters list is visible..
+2021-08-16 16:56:46.1016 DEBUG Getting letter by index (0)
+2021-08-16 16:56:46.8665 INFO Trying to log out from account..
+2021-08-16 16:56:46.8675 DEBUG Trying to click on menu dropdown..
+2021-08-16 16:56:46.9426 DEBUG Trying to click on Logout button..
+2021-08-16 16:56:48.5486 INFO Logged out successfully.
+2021-08-16 16:56:53.5310 INFO Navigated to https://mail.ru/
+2021-08-16 16:56:54.9126 INFO Trying to login into mail.ru account..
+2021-08-16 16:56:54.9126 DEBUG Entering login into field..
+2021-08-16 16:56:55.1873 DEBUG Clicking enter password button..
+2021-08-16 16:56:57.3819 DEBUG Looking for password field..
+2021-08-16 16:56:58.0554 DEBUG Entering password into Password field..
+2021-08-16 16:56:58.1054 DEBUG Clicking login into account..
+2021-08-16 16:56:58.9951 INFO Trying to send message d3f5f010-6b66-4b6b-8ffd-fcab9790d3fe to vlaterrogue@mail.ru..
+2021-08-16 16:56:58.9951 DEBUG Waiting for 'Write Letter' button to become visible..
+2021-08-16 16:57:00.2335 DEBUG Clicking on 'Write Letter' button..
+2021-08-16 16:57:00.8579 DEBUG Typing vlaterrogue@mail.ru into target mail adress field..
+2021-08-16 16:57:01.7209 DEBUG Typing d3f5f010-6b66-4b6b-8ffd-fcab9790d3fe into letter message field..
+2021-08-16 16:57:01.8268 DEBUG Clicking Send button..
+2021-08-16 16:57:02.2254 DEBUG Checking if confirm button is visible..
+2021-08-16 16:57:02.3403 DEBUG Confirm button is not visible, finishing.
+2021-08-16 16:57:02.3403 INFO Message sent successfully.
+2021-08-16 16:57:02.3403 INFO Trying to log out from account..
+2021-08-16 16:57:02.3403 DEBUG Trying to click on menu dropdown..
+2021-08-16 16:57:02.7319 DEBUG Trying to click on Logout button..
+2021-08-16 16:57:03.9767 INFO Logged out successfully.
+2021-08-16 16:57:11.2908 INFO Navigated to https://mail.ru/
+2021-08-16 16:57:12.6022 INFO Trying to login into mail.ru account..
+2021-08-16 16:57:12.6022 DEBUG Entering login into field..
+2021-08-16 16:57:13.0368 DEBUG Clicking enter password button..
+2021-08-16 16:57:14.1018 DEBUG Looking for password field..
+2021-08-16 16:57:14.2477 DEBUG Entering password into Password field..
+2021-08-16 16:57:14.3126 DEBUG Clicking login into account..
+2021-08-16 16:57:15.5570 INFO Trying to get message by index (0)..
+2021-08-16 16:57:15.5570 DEBUG Clicking Inbox button..
+2021-08-16 16:57:17.7972 DEBUG Checking if letters list is visible..
+2021-08-16 16:57:17.7972 DEBUG Getting letter by index (0)
+2021-08-16 16:57:18.2817 INFO Trying to log out from account..
+2021-08-16 16:57:18.2817 DEBUG Trying to click on menu dropdown..
+2021-08-16 16:57:18.7190 DEBUG Trying to click on Logout button..
+2021-08-16 16:57:19.8025 INFO Logged out successfully.
+2021-08-16 16:58:14.0128 INFO Navigated to https://mail.ru/
+2021-08-16 16:58:15.5332 INFO Trying to login into mail.ru account..
+2021-08-16 16:58:15.5332 DEBUG Entering login into field..
+2021-08-16 16:58:15.6721 DEBUG Clicking enter password button..
+2021-08-16 16:58:15.7829 DEBUG Looking for password field..
+2021-08-16 16:58:15.8299 DEBUG Entering password into Password field..
+2021-08-16 16:58:15.9637 DEBUG Clicking login into account..
+2021-08-16 16:58:16.0826 INFO Trying to send message 8516cb69-0827-426e-bb3a-9ad82337df65 to vlaterrogue@mail.ru..
+2021-08-16 16:58:16.0826 DEBUG Waiting for 'Write Letter' button to become visible..
+2021-08-16 16:58:18.2063 DEBUG Clicking on 'Write Letter' button..
+2021-08-16 16:58:18.4361 DEBUG Typing vlaterrogue@mail.ru into target mail adress field..
+2021-08-16 16:58:19.3160 DEBUG Typing 8516cb69-0827-426e-bb3a-9ad82337df65 into letter message field..
+2021-08-16 16:58:19.4879 DEBUG Clicking Send button..
+2021-08-16 16:58:19.6827 DEBUG Checking if confirm button is visible..
+2021-08-16 16:58:19.7077 DEBUG Confirm button is not visible, finishing.
+2021-08-16 16:58:19.7077 INFO Message sent successfully.
+2021-08-16 16:58:19.7077 INFO Trying to log out from account..
+2021-08-16 16:58:19.7077 DEBUG Trying to click on menu dropdown..
+2021-08-16 16:58:19.7736 DEBUG Trying to click on Logout button..
+2021-08-16 16:58:21.3449 INFO Logged out successfully.
+2021-08-16 16:58:22.6334 INFO Navigated to https://mail.ru/
+2021-08-16 16:58:24.1263 INFO Trying to login into mail.ru account..
+2021-08-16 16:58:24.1263 DEBUG Entering login into field..
+2021-08-16 16:58:24.2931 DEBUG Clicking enter password button..
+2021-08-16 16:58:24.4110 DEBUG Looking for password field..
+2021-08-16 16:58:24.4759 DEBUG Entering password into Password field..
+2021-08-16 16:58:24.6068 DEBUG Clicking login into account..
+2021-08-16 16:58:24.7216 INFO Trying to get message by index (0)..
+2021-08-16 16:58:24.7216 DEBUG Clicking Inbox button..
+2021-08-16 16:58:26.8842 DEBUG Checking if letters list is visible..
+2021-08-16 16:58:27.1673 DEBUG Getting letter by index (0)
+2021-08-16 16:58:28.2095 INFO Trying to log out from account..
+2021-08-16 16:58:28.2095 DEBUG Trying to click on menu dropdown..
+2021-08-16 16:58:28.2681 DEBUG Trying to click on Logout button..
+2021-08-16 16:58:29.5960 INFO Logged out successfully.
+2021-08-16 16:58:34.5702 INFO Navigated to https://mail.ru/
+2021-08-16 16:58:37.5252 INFO Trying to login into mail.ru account..
+2021-08-16 16:58:37.5252 DEBUG Entering login into field..
+2021-08-16 16:58:37.9597 DEBUG Clicking enter password button..
+2021-08-16 16:58:38.4172 DEBUG Looking for password field..
+2021-08-16 16:58:38.5920 DEBUG Entering password into Password field..
+2021-08-16 16:58:38.8081 DEBUG Clicking login into account..
+2021-08-16 16:58:39.0572 INFO Trying to send message 061555bf-993a-43e6-a92d-d4eb90ea62c8 to vlaterrogue@mail.ru..
+2021-08-16 16:58:39.0572 DEBUG Waiting for 'Write Letter' button to become visible..
+2021-08-16 16:58:41.4990 DEBUG Clicking on 'Write Letter' button..
+2021-08-16 16:58:42.1833 DEBUG Typing vlaterrogue@mail.ru into target mail adress field..
+2021-08-16 16:58:42.9525 DEBUG Typing 061555bf-993a-43e6-a92d-d4eb90ea62c8 into letter message field..
+2021-08-16 16:58:43.0604 DEBUG Clicking Send button..
+2021-08-16 16:58:43.4130 DEBUG Checking if confirm button is visible..
+2021-08-16 16:58:43.4620 DEBUG Confirm button is not visible, finishing.
+2021-08-16 16:58:43.4620 INFO Message sent successfully.
+2021-08-16 16:58:43.4620 INFO Trying to log out from account..
+2021-08-16 16:58:43.4620 DEBUG Trying to click on menu dropdown..
+2021-08-16 16:58:43.8206 DEBUG Trying to click on Logout button..
+2021-08-16 16:58:44.9232 INFO Logged out successfully.
+2021-08-16 16:58:50.8879 INFO Navigated to https://mail.ru/
+2021-08-16 16:58:52.2185 INFO Trying to login into mail.ru account..
+2021-08-16 16:58:52.2185 DEBUG Entering login into field..
+2021-08-16 16:58:52.3334 DEBUG Clicking enter password button..
+2021-08-16 16:58:52.9026 DEBUG Looking for password field..
+2021-08-16 16:58:53.3114 DEBUG Entering password into Password field..
+2021-08-16 16:58:53.5481 DEBUG Clicking login into account..
+2021-08-16 16:58:54.8225 INFO Trying to get message by index (0)..
+2021-08-16 16:58:54.8225 DEBUG Clicking Inbox button..
+2021-08-16 16:58:56.9076 DEBUG Checking if letters list is visible..
+2021-08-16 16:58:56.9156 DEBUG Getting letter by index (0)
+2021-08-16 16:58:57.4171 INFO Trying to log out from account..
+2021-08-16 16:58:57.4171 DEBUG Trying to click on menu dropdown..
+2021-08-16 16:58:58.1675 DEBUG Trying to click on Logout button..
+2021-08-16 16:58:59.1913 INFO Logged out successfully.
+2021-08-16 17:04:06.9676 INFO Navigated to https://mail.ru/
+2021-08-16 17:04:09.0474 INFO Trying to login into mail.ru account..
+2021-08-16 17:04:09.0474 DEBUG Entering login into field..
+2021-08-16 17:04:09.2263 DEBUG Clicking enter password button..
+2021-08-16 17:04:09.3102 DEBUG Looking for password field..
+2021-08-16 17:04:09.9157 DEBUG Entering password into Password field..
+2021-08-16 17:04:09.9836 DEBUG Clicking login into account..
+2021-08-16 17:04:10.0585 INFO Trying to send message b7ae2fe8-69ac-4f4d-8882-1773db2c1f85 to vlaterrogue@mail.ru..
+2021-08-16 17:04:10.0585 DEBUG Waiting for 'Write Letter' button to become visible..
+2021-08-16 17:04:12.2749 DEBUG Clicking on 'Write Letter' button..
+2021-08-16 17:04:12.4957 DEBUG Typing vlaterrogue@mail.ru into target mail adress field..
+2021-08-16 17:04:13.4999 DEBUG Typing b7ae2fe8-69ac-4f4d-8882-1773db2c1f85 into letter message field..
+2021-08-16 17:04:13.7083 DEBUG Clicking Send button..
+2021-08-16 17:04:13.9531 DEBUG Checking if confirm button is visible..
+2021-08-16 17:04:14.0420 DEBUG Confirm button is not visible, finishing.
+2021-08-16 17:04:14.0420 INFO Message sent successfully.
+2021-08-16 17:04:14.0420 INFO Trying to log out from account..
+2021-08-16 17:04:14.0420 DEBUG Trying to click on menu dropdown..
+2021-08-16 17:04:14.1149 DEBUG Trying to click on Logout button..
+2021-08-16 17:04:15.8415 INFO Logged out successfully.
+2021-08-16 17:04:17.3312 INFO Navigated to https://mail.ru/
+2021-08-16 17:04:18.9525 INFO Trying to login into mail.ru account..
+2021-08-16 17:04:18.9525 DEBUG Entering login into field..
+2021-08-16 17:04:19.0914 DEBUG Clicking enter password button..
+2021-08-16 17:04:19.1783 DEBUG Looking for password field..
+2021-08-16 17:04:19.2173 DEBUG Entering password into Password field..
+2021-08-16 17:04:19.2812 DEBUG Clicking login into account..
+2021-08-16 17:04:19.4031 INFO Trying to get message by index (0)..
+2021-08-16 17:04:19.4031 DEBUG Clicking Inbox button..
+2021-08-16 17:04:22.1903 DEBUG Checking if letters list is visible..
+2021-08-16 17:04:22.4360 DEBUG Getting letter by index (0)
+2021-08-16 17:04:23.2852 INFO Trying to log out from account..
+2021-08-16 17:04:23.2852 DEBUG Trying to click on menu dropdown..
+2021-08-16 17:04:23.3861 DEBUG Trying to click on Logout button..
+2021-08-16 17:04:24.8201 INFO Logged out successfully.
+2021-08-16 17:04:31.0319 INFO Navigated to https://mail.ru/
+2021-08-16 17:04:33.4999 INFO Trying to login into mail.ru account..
+2021-08-16 17:04:33.4999 DEBUG Entering login into field..
+2021-08-16 17:04:34.0023 DEBUG Clicking enter password button..
+2021-08-16 17:04:34.4079 DEBUG Looking for password field..
+2021-08-16 17:04:34.4479 DEBUG Entering password into Password field..
+2021-08-16 17:04:34.5048 DEBUG Clicking login into account..
+2021-08-16 17:04:35.4843 INFO Trying to send message 184545d3-e5d7-471b-b042-b2d19f93c894 to vlaterrogue@mail.ru..
+2021-08-16 17:04:35.4843 DEBUG Waiting for 'Write Letter' button to become visible..
+2021-08-16 17:04:36.8358 DEBUG Clicking on 'Write Letter' button..
+2021-08-16 17:04:37.4519 DEBUG Typing vlaterrogue@mail.ru into target mail adress field..
+2021-08-16 17:04:38.4370 DEBUG Typing 184545d3-e5d7-471b-b042-b2d19f93c894 into letter message field..
+2021-08-16 17:04:38.6198 DEBUG Clicking Send button..
+2021-08-16 17:04:38.9395 DEBUG Checking if confirm button is visible..
+2021-08-16 17:04:39.1942 DEBUG Confirm button is not visible, finishing.
+2021-08-16 17:04:39.1942 INFO Message sent successfully.
+2021-08-16 17:04:39.1942 INFO Trying to log out from account..
+2021-08-16 17:04:39.1942 DEBUG Trying to click on menu dropdown..
+2021-08-16 17:04:39.4678 DEBUG Trying to click on Logout button..
+2021-08-16 17:04:43.6134 INFO Logged out successfully.
+2021-08-16 17:04:49.8471 INFO Navigated to https://mail.ru/
+2021-08-16 17:04:51.9522 INFO Trying to login into mail.ru account..
+2021-08-16 17:04:51.9522 DEBUG Entering login into field..
+2021-08-16 17:04:52.9291 DEBUG Clicking enter password button..
+2021-08-16 17:04:53.7466 DEBUG Looking for password field..
+2021-08-16 17:04:53.8095 DEBUG Entering password into Password field..
+2021-08-16 17:04:53.8415 DEBUG Clicking login into account..
+2021-08-16 17:04:55.2167 INFO Trying to get message by index (0)..
+2021-08-16 17:04:55.2167 DEBUG Clicking Inbox button..
+2021-08-16 17:04:57.6567 DEBUG Checking if letters list is visible..
+2021-08-16 17:04:57.6567 DEBUG Getting letter by index (0)
+2021-08-16 17:04:58.1312 INFO Trying to log out from account..
+2021-08-16 17:04:58.1312 DEBUG Trying to click on menu dropdown..
+2021-08-16 17:04:58.4808 DEBUG Trying to click on Logout button..
+2021-08-16 17:04:59.9545 INFO Logged out successfully.
